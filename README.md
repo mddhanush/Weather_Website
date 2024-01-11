@@ -1,2 +1,2 @@
-# Weather_Website
- a website that displays the weather of different cities
+# *Weather_Website*
+ A website that displays the weather of different cities
