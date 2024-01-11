@@ -109,3 +109,16 @@ body {
     font-weight: 100;
     margin-top: 1px;
 }
+
+.weather {
+    display: none;
+}
+
+.error {
+    font-size: 20px;
+    text-align: left;
+    margin-top: 15px;
+    margin-left: 10px;
+    display: none;
+
+}

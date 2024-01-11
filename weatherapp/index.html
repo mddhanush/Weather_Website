@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather Display</title>
+    <script src="index.js"></script>
+
 </head>
 
 <body>
@@ -15,8 +17,12 @@
         <div class="search">
             <input type="text" placeholder="Enter City " spellcheck="false">
             <button><img src="icons/search-solid.svg"></button>
-
         </div>
+
+        <div class="error">
+            <p>Invalid City name</p>
+        </div>
+
         <div class="weather">
             <img src="icons/day.svg" class="icon">
             <h1 class="temp">22°C</h1>
@@ -44,6 +50,7 @@
 
         </div>
     </div>
+
 
 </body>
 
